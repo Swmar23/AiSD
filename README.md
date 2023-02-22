@@ -17,11 +17,21 @@ Implementacja algorytmów sortowania: Insertion Sort, Merge Sort, Quick Sort. Im
 
 Testy średniej liczby porównań między kluczami [c(n)], przestawień kluczy [s(n)] dla ciągów generowanych generatorami oraz ilorazy c(n)/n i s(n)/n.
 
-Implementacja algorytmu Dual-Pivot Quicksort i testowanie tej implementacji. Propozycja własnego hybrydowego algorytmu sortowania (połączenie Quick Sort z Insertion Sort) i testowanie implementacji tego algorytmu.
+Algorytm Dual-Pivot Quicksort i testowanie ich implementacji. Propozycja własnego hybrydowego algorytmu sortowania (połączenie Quick Sort z Insertion Sort) i testowanie implementacji tego algorytmu.
 
 ## Lista 3
 Implementacja algorytmów szukania statystyk pozycyjnych: Randomized Select i Select. Badanie liczby porównań i przestawień elementów tablic dla implementacji. Sprawdzenie wpływu liczby grup, na którą dzielona jest tablica w kroku wyszukiwania mediany median, na złożoność algorytmu Select (k-Select).
 
-Implementacja algorytmu rekurencyjnego wyszukiwania binarnego. Testy złożoności obliczeniowej algorytmu i porównanie wyników z teoretycznym rezultatem z Master Theorem.
+Algorytm rekurencyjnego wyszukiwania binarnego. Testy złożoności obliczeniowej algorytmu i porównanie wyników z teoretycznym rezultatem z Master Theorem.
 
-Wykorzystnie algorytmu Select w algorytmie Quick Sort i Dual Pivot Quicksort. Testy implementacji analogiczne do tych z listy 2.
+Wykorzystanie algorytmu Select w algorytmie Quick Sort i Dual Pivot Quicksort. Testy implementacji analogiczne do tych z listy 2.
+
+## Lista 4
+Struktury drzewiaste: wersja podstawowa Binary Search Tree, Red-Black Binary Search Tree (drzewo czerwono-czarne), Splay Tree. Badanie złożoności obliczeniowej wstawiania elmentów z losowego ciągu lub losowego ciągu rosnącego (liczba porównań między kluczami, liczba odczytów i podstawień wskaźników, wysokość drzewa po każdej operacji). Analogiczne testy złożoności usuwania losowego ciągu ze struktur. Koszt zamortyzowany operacji dla Splay Tree.
+
+## Lista 5
+Implementacja kopca binarnego i algorytmu Heapsort operującego na tymże kopcu. Testy porównujące działanie algorytmu z algorytmami sortowania z listy 2.
+
+Operacje kolejki priorytetowej dla kopca binarnego: `Insert(S, x)`, `Extract-Max(S)`. Testy złożoności wstawiania i usuwania elementów z kolejki. Demonstracja działania kolejki na małych danych (przedstawienie wizualne tablicy jako kopiec).
+
+Algorytm wyszukiwania najdłuższego wspólnego podciągu dwóch ciągów (LCS, Longest Common Subsequence) - programowanie dynamiczne. Badanie złożoności obliczeniowej zaimplementowanego algorytmu LCS.
