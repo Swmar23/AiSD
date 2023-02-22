@@ -1,7 +1,7 @@
 # AiSD - Algorytmy i Struktury Danych
 Zbiorcze repozytorium rozwiązań zadań z przedmiotu Algorytmy i Struktury Danych. Kurs prowadzony przez dra inż. Zbigniewa Gołębiewskiego na kierunku Informatyka Algorytmiczna, Wydział Informatyki i Telekomunikacji Politechniki Wrocławskiej. Same zajęcia laboratoryjne prowadzone były przez dra Marcina Kika. Autorem zadań jest dr Marcin Kik.
 
-Programy napisane w językach C i C++. Dodatkowo utworzyłem parę skryptów uruchamiających programy na potrzeby testów - napisane są one pod powłokę Linuksową. Ponadto działanie zadań zostało udokumentowanie programem `asciinema`. Instalacja programu: 
+Programy napisane w językach C i C++. Dodatkowo utworzyłem parę skryptów uruchamiających programy na potrzeby testów - napisane są one pod powłokę Linuksową. Ponadto działanie zadań zostało udokumentowanie programem `asciinema` (pliki o formacie `.cast`). Instalacja programu: 
 
 `sudo apt-get install asciinema` (na Ubuntu i innych dystrybucjach Debianowych). Szczegóły instalacji na innych systemach: [link](https://asciinema.org/docs/installation)
 
