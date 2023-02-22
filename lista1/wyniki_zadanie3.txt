@@ -1,0 +1,15 @@
+Test sredniego czasu dostepu do tego samego elementu dla funkcji przesuwajacej liste na szukany element
+1000 powtorzen dla kazdego klucza i, i=0,100,...,900 (i, sr_czas[ms]):
+0;0.072000
+100;0.075000
+200;0.072000
+300;0.073000
+400;0.076000
+500;0.077000
+600;0.074000
+700;0.074000
+800;0.072000
+900;0.073000
+
+Test sredniego czasu dostepu do losowego elementu (1000 powtorzen) [ms]:
+6.266000
